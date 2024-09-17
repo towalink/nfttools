@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setup_kwargs = {
     'name': 'nfttools',
-    'version': '0.1.0',
+    'version': '0.1.1',
     'author': 'Dirk Henrici',
     'author_email': 'towalink.nfttools@henrici.name',
     'description': 'help interacting with nftables',
