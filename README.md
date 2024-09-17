@@ -52,5 +52,4 @@ pip3 install -e <path to root of "src" directory>
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 - **[MIT license](https://opensource.org/licenses/MIT)**
-- Copyright 2024-2024 © <a href="https://github.com/towalink/nfttools" target="_blank">Dirk Henrici</a>.
-- [WireGuard](https://www.wireguard.com/) is a registered trademark of Jason A. Donenfeld.
+- Copyright 2024 © <a href="https://github.com/towalink/nfttools" target="_blank">Dirk Henrici</a>.
