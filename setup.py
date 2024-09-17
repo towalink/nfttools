@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setup_kwargs = {
     'name': 'nfttools',
-    'version': '0.1.1',
+    'version': '0.1.2',
     'author': 'Dirk Henrici',
     'author_email': 'towalink.nfttools@henrici.name',
     'description': 'help interacting with nftables',
@@ -16,9 +16,11 @@ setup_kwargs = {
     'url': 'https://www.github.com/towalink/nfttools',
     'packages': setuptools.find_namespace_packages('src'),
     'package_dir': {'': 'src'},
-    'install_requires': ['pip-nftables',
-                         'jsonschema',
-                        ],
+    'extras_require': {
+        'nftables': ['pip-nftables',
+                     'jsonschema',
+                    ],
+    }, 
     'classifiers': [
         'Programming Language :: Python',
         'License :: OSI Approved :: MIT License',
